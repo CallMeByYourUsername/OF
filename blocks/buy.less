@@ -1,0 +1,125 @@
+// main: ../style.less
+
+.buy {
+    margin-top: 60px;
+    padding: 0 55px 0 120px;
+    margin-bottom: 60px;
+}
+
+
+.buy__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buy__column {
+    padding-top: 60px;
+}
+
+
+.buy__info {
+    position: relative;
+    border: 2px solid #E7E7E7;
+    border-radius: 32px;
+    padding: 25px 0 25px 0;
+    margin: 0 auto;
+}
+
+
+.buy__decoration-rectangle {
+    position: absolute;
+    top: -0.8px;
+    left: 0;
+}
+
+
+.buy__decoration-ellipse {
+    position: absolute;
+    top: -0.8px;
+    right: 0;
+}
+
+
+.buy__decoration-circle {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+}
+
+
+.buy__center {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.buy__offer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    max-width: 250px;
+    background-color: @blue;
+    padding: 10px 6px;
+    box-shadow: 0px 0px 2px 8px rgba(0,157,252,0.2);
+    border-radius: 15px;
+}
+
+.offer__title {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 5px;
+    line-height: 1.5;
+}
+
+
+
+
+.buy__benefits{
+    margin: 0;
+    padding: 0 30px 0 55px;
+}
+
+.buy__benefit{
+    color: #2C2C2C;
+    font-weight: 500;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+
+.buy__benefit {
+    margin-bottom: 10px; 
+}
+  
+
+.benefit__tick {
+    margin-bottom: -5px;
+
+}
+
+.buy__benefit::after {
+    content: "";
+    display: block;
+    width: 480px;
+    height: 1px;
+    background-color: rgba(52, 124, 109, 0.1);
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+
+
+.buy__button  {
+    margin-top: 10px;
+    color: #E5F7FD;
+    background-color: @blue;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 15px;
+    max-width: 180px;
+    cursor: pointer;
+}
